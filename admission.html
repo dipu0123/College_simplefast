@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College</title>
+    <link rel="stylesheet" href="style3.css"/>
+</head>
+<body>
+    <nav class="design">
+           <a href="collegeWeb.html"><img src="https://gnit.ac.in/wp-content/uploads/2021/05/GNIT_Logo.png" alt="no_image"/></a>
+          <ul>
+            <Li><a href="collegeWeb.html" class="styleLink">Home</a></Li>
+            <li><a href="academics.html" class="styleLink">Academics</a></li>
+            <li><a href="admission.html" class="styleLink">Admission</a></li>
+            <Li><a href="gallary.html" class="styleLink">Gallary</a></Li>
+          </ul>
+        </nav>
+        
+        <div class="h"><h1>Please fill up this form to get admission in this college</h1></div>
+        <div class="color">
+        <div class="dt">
+          <form action="" method="post" name="fdetails">
+       <fieldset class="f1" name="details">
+        <legend><h2>Registration form</h2></legend>
+        <label>Enter your name:</label>
+        <br><input type="text" name="fname" placeholder="Enter your name" required/>
+        <br><br><label>Enter your email:</label>
+        <br><input type="email" style="width:200px" name="email" placeholder="Enter your email" required autocomplete="on"/>
+        <br><br><label>Enter your password:</label>
+        <br><input type="password" name="userpassword" placeholder="Enter your password" required/>
+       <br><br><label>Enter your mobile number:</label>
+       <br><input type="tel" name="mnumber" placeholder="Enter your mobile number"  maxlength="10" minlength="10" required/>
+       <br><br><label>Enter your aadhar number:</label>
+       <br><input style="width:200px" type="number" name="anum" placeholder="Enter your aadhar number" pattern="[0-9]"   maxlength="12" minlength="12" required/>
+       <br><br>
+       <label>Gender:</label>
+       <input type="radio" name="gender" value="male" required/><label> Male</label>
+       <input type="radio" name="gender" value="female"/><label> Female</label>
+       <input type="radio" name="gender" value="Others"/><label> Others</label>
+       <br><br><label>Select Your identity:</label>
+       <br><input type="file" name="document" accept=".pdf,.docx" required/>
+       <br><br><label>Select your photo:</label>
+       <br><input type="file" name="document" accept="image/*" required/>
+       <br><br><p>Enter your address:</p>
+       <textarea name="address" rows="5" cols="20" required placeholder="Enter your address" style="max-width:210px;max-height:100px;"></textarea>
+      <br><br><label>Enter your age:</label> 
+      <input type="number" name="age" max="120" min="0" range="[0-120]" required/>
+      <br><br><input type="submit" value="Register" />
+      <input type="reset" value="Reset" />
+      </fieldset>    
+      </form>
+        </div>
+        </div>
+       
+        <footer class="f">
+          <small>&copy; All rights reserved, Guru Nanak Institute of Technology</small>
+         </footer>
+      </body>
+</html>
